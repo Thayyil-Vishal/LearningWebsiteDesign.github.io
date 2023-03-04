@@ -1,0 +1,583 @@
+html, body {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+}
+
+
+
+.fa{
+    margin-top:15px;
+    padding-left:10px;
+    font-weight: bold;
+}
+.logo{
+    color: navy;
+}
+.icons2{
+    position: absolute;
+    display: inline-block;
+}
+.header h1{
+    margin-top: 10px;
+    color: navy;
+    font-size: 35px;
+}
+.iconbtn{
+    margin-top: 10px;
+    height: 40px;
+    padding-right: 10px;
+    border: none;
+}
+.iconbtn i{
+    margin-top: 5px;
+    margin-left: -5px;
+}
+.fa-phone,.fa-envelope,.fa-map-marker{
+    font-size: 15px;
+}
+.icon-title{
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 0px;
+}
+.icon-para{
+    font-size: 12px;
+    margin-top: -8px;
+}
+.navbtn1{
+    padding: 17px;
+    width: 180px;
+    color: rgb(89, 74, 74);
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+.navbtn2{
+    display: none!important;
+    color: rgb(89, 74, 74);
+    padding: 15px;
+    padding-left: 25px;
+    width: 170px;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+.navbtn3{
+    display: none!important;
+    color: rgb(89, 74, 74);
+    padding: 17px;
+    margin-top: -5px;
+    padding-left: 25px;
+    width: 170px;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+
+.navbar{
+    height: 60px;
+    position: sticky!important;
+    
+}
+
+.bgimg{
+    background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("https://frsinc.co/wp-content/uploads/students-background.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 750px;
+    clip-path: polygon(100% 0%, 100% 75%, 50%  100%, 0 75%, 0 0);
+}
+
+.homeimg{
+    margin-top: 80px;
+    height: 500px;
+    margin-left: -130px;
+}
+.hometext{
+    margin-top:250px;
+    color: #fff;
+}
+.hometext p{
+    color: rgb(138, 116, 116);
+    font-size: 15px;
+}
+.hometext button{
+    padding: 15px;
+    width: 200px;
+    background-color: #FFC600;
+    border: none;    
+}
+
+.cards{
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+.choose p{
+    font-size: 18px;
+}
+.center1{
+    width: 90px;
+    background-color:#DFE3E8;
+    padding: 25px;
+    border-radius: 100%;
+    border: none;
+}
+
+.center2{
+    width: 90px;
+    background-color:#E7EFFF;
+    padding: 25px;
+    border-radius: 100%;
+    border: none;
+}
+.center3{
+
+    width: 90px;
+    background-color:#FEF1E5;
+    padding: 25px;
+    border-radius: 100%;
+    border: none;
+}
+.center4{
+    width: 90px;
+    background-color:#F5F9EC;
+    padding: 25px;
+    border-radius: 100%;
+    border: none;
+}
+.center5{
+    width: 90px;
+    background-color:#DFE3E8;
+    padding: 25px;
+    border-radius: 100%;
+    border: none;
+}
+.center6{
+    width: 90px;
+    background-color:#DFE3E8;
+    padding: 25px;
+    border-radius: 100%;
+    border: none;
+}
+
+.sixicons1{
+    font-size: 35px!important;
+    color: #07294D;
+    margin-top: -1px;
+    margin-left: -8px;
+}
+.sixicons2{
+    font-size: 40px!important;
+    color: #4382FF;
+    margin-top: -1px;
+    margin-left: -15px;
+}
+.sixicons3{
+    font-size: 40px!important;
+    color: #F89035;
+    margin-top: -1px;
+    margin-left: -8px;
+}
+.sixicons4{
+    font-size: 40px!important;
+    color: #B3D369;
+    margin-top: -1px;
+    margin-left: -8px;
+}
+
+.sixicons5{
+    font-size: 40px!important;
+    color: #554DA7;
+    margin-top: -1px;
+    margin-left: -8px;
+}
+
+.sixicons6{
+    font-size: 30px!important;
+    color: #F94FA4;
+    margin-top: -1px;
+    margin-left: -8px;
+}
+
+.cards h4 , p{
+    text-align: left;
+}
+
+
+.CourseIMG{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 200px;
+}
+
+.ratingimg{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 120px;
+    margin-top: -55px;
+}
+
+.profileimg{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 40%;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.project-work {
+    background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("/img/6.jpg");
+    color: #fff;
+    margin-top: 60px ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.project-works h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+.counter{
+    margin-top:50px;
+}
+
+.gallerybtn button{
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 25px ;
+    margin: 5px;
+}
+
+.galleryimg{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.counterIcon{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 30%;
+    height: 45%;
+    margin-bottom: 10px;
+}
+
+.pricepara p{
+    text-align: center;
+    border-bottom: 1px solid rgb(214, 212, 212);
+    padding: 10px;
+}
+.pricing-card{
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+.pricing-card-main{
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+.footerimg{
+    background-image: linear-gradient(rgba(0, 0, 10, 0.9), rgba(0, 0, 100, 0.9)), url("/img/1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 750px;
+}
+
+.footbtn{
+    border: none;
+
+}
+
+
+/* ***********************Amimation code start ******************** */
+
+
+/* Define the slide-in animation for the left column */
+.slide-in-left {
+    animation: slide-in-left 1s ease-out;
+  }
+  
+  /* Define the slide-in animation for the right column */
+  .slide-in-right {
+    animation: slide-in-right 1s ease-out;
+  }
+  
+  /* Define the keyframes for the slide-in-left animation */
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  /* Define the keyframes for the slide-in-right animation */
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+    
+  
+
+  /* Define the slide-up animation for all columns */
+.slide-up {
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .slide-up.show {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  
+
+  
+
+
+/* ***********************Amimation code end******************** */
+
+
+
+
+
+
+
+/* Media Querys in css */
+
+@media(min-width:992px){
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+      
+
+     .contact{
+        display: none!important;
+    }
+
+    .navbtn1{
+        display: none!important;
+    }
+    .navbtn2{
+        display: flex!important;
+    }
+    
+    .homeimg{
+        margin-top: 180px;
+        height: 400px;
+        margin-left: -100px;
+    }
+
+    .teamsection{
+        height: 450px!important;
+    }
+
+
+
+}
+
+@media(min-width:575px) and (max-width:767px) {
+    .contact{
+        display: none!important;
+    }
+
+     .navbar-collapse{
+        background-color: #fff;  
+     }
+     .navbtn1{
+        display: none!important;
+    }
+    .navbtn2{
+        display: flex!important;
+    }
+    .hometext h1{
+        margin-top: -200px;
+    }
+
+    .homeimg{
+        margin-top: -10px;
+        height: 400px;
+        margin-left: -40px;
+    }
+    
+    .project-work {
+        background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("/img/6.jpg");
+        color: #fff;
+        margin-top: 60px ;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        height: 900px!important;
+    }
+
+    .pricing-card-main{
+        margin-top: 20px;
+    }
+
+    .footerimg{
+        height: 1050px!important;
+    }
+
+    .pricingsection{
+        margin-top:280px!important;
+    }
+
+    .pricingsection{
+        margin-top:50px!important;
+    }
+
+    .teamsection{
+        height: 750px!important;
+    }
+
+
+}
+
+@media(min-width:480px) and (max-width:574px) {
+    .contact{
+        display: none!important;
+    }
+     .navbar-collapse{
+        background-color: #fff;
+     }
+
+     .nav p{
+        text-align: center;
+        font-size: 18px;
+     }
+    .icons{
+        display: none;
+     }
+     .navbtn1{
+        display: none!important;
+    }
+    .navbtn3{
+        display: flex!important;
+    }
+    .hometext h1{
+        margin-top: -200px;
+    }
+
+    .homeimg{
+        margin-top: 10px;
+        height: 300px;
+        margin-left: -15px;
+    }
+    
+    .project-work {
+        background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("/img/6.jpg");
+        color: #fff;
+        margin-top: 60px ;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        height: 900px!important;
+    }
+
+    .pricing-card-main{
+        margin-top: 30px;
+    }
+
+    .footerimg{
+        height: 1200px!important;
+    }
+
+    .pricingsection{
+        margin-top:50px!important;
+    }
+
+    .teamsection{
+        height: 700px!important;
+    }
+
+
+}
+
+@media(max-width:479px){
+    .contact{
+        display: none!important;
+    }
+     .navbar-collapse{
+        background-color: #fff;
+     }
+
+
+     .nav p{
+        text-align: center;
+        font-size: 18px;
+     }
+    .icons{
+        display: none;
+     }
+     .header h1{
+        text-align: center;
+     }
+     .navbtn1{
+        display: none!important;
+    }
+    .navbtn3{
+        display: flex!important;
+        margin-top: -5px;
+    }
+
+    .hometext h1{
+        margin-top: -200px;
+    }
+
+    .homeimg{
+        margin-top: -20px;
+        height: 350px;
+        margin-left: -70px;
+    }
+
+    .project-work {
+        background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("/img/6.jpg");
+        color: #fff;
+        margin-top: 60px ;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        height: 800px!important;
+    }
+
+    .pricing-card-main{
+        margin-top: 30px;
+    }
+
+    .footerimg{
+        height: 1200px!important;
+    }
+
+    .pricingsection{
+        margin-top:50px!important;
+    }
+
+    .teamsection{
+        height: 650px!important;
+    }
+    
+
+}
+
+
