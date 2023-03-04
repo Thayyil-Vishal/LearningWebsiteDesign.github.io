@@ -238,7 +238,7 @@ html, body {
 
 
 .project-work {
-    background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("img/6.jpg");
+    background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("/img/6.jpg");
     color: #fff;
     margin-top: 60px ;
     background-size: 100% 100%;
@@ -294,7 +294,7 @@ html, body {
 }
 
 .footerimg{
-    background-image: linear-gradient(rgba(0, 0, 10, 0.9), rgba(0, 0, 100, 0.9)), url("img/1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 10, 0.9), rgba(0, 0, 100, 0.9)), url("/img/1.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     width: 100%;
@@ -425,7 +425,7 @@ html, body {
     }
     
     .project-work {
-        background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("img/6.jpg");
+        background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("/img/6.jpg");
         color: #fff;
         margin-top: 60px ;
         background-size: 100% 100%;
@@ -488,7 +488,7 @@ html, body {
     }
     
     .project-work {
-        background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("img/6.jpg");
+        background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("/img/6.jpg");
         color: #fff;
         margin-top: 60px ;
         background-size: 100% 100%;
@@ -553,7 +553,7 @@ html, body {
     }
 
     .project-work {
-        background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("img/6.jpg");
+        background-image: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 100, 0.9)), url("/img/6.jpg");
         color: #fff;
         margin-top: 60px ;
         background-size: 100% 100%;
