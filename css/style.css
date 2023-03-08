@@ -450,10 +450,11 @@ html, body {
 
     .pricingsection{
         margin-top:50px!important;
+        margin-left: 50px;
     }
 
     .teamsection{
-        height: 750px!important;
+        height: 800px!important;
     }
 
 
@@ -499,6 +500,7 @@ html, body {
         background-size: 100% 100%;
         background-attachment: fixed;
         height: 900px!important;
+        
     }
 
     .pricing-card-main{
@@ -511,6 +513,7 @@ html, body {
 
     .pricingsection{
         margin-top:50px!important;
+        margin-left: 50px;
     }
 
     .teamsection{
@@ -577,10 +580,11 @@ html, body {
 
     .pricingsection{
         margin-top:50px!important;
+        margin-left: 40px;
     }
 
     .teamsection{
-        height: 650px!important;
+        height: 680px!important;
     }
     
     .Discover-section,.row{
