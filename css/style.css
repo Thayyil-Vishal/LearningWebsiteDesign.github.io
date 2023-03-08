@@ -97,6 +97,7 @@ html, body {
     margin-top: 80px;
     height: 500px;
     margin-left: -130px;
+    width: 580px;
 }
 .hometext{
     margin-top:250px;
@@ -390,13 +391,16 @@ html, body {
         margin-top: 180px;
         height: 400px;
         margin-left: -100px;
+        width: 440px;
     }
 
     .teamsection{
         height: 450px!important;
     }
 
-
+    .choose{
+        background-color: #4382FF;
+    }
 
 }
 
@@ -422,6 +426,7 @@ html, body {
         margin-top: -10px;
         height: 400px;
         margin-left: -40px;
+        width: 500px;
     }
     
     .project-work {
@@ -485,6 +490,8 @@ html, body {
         margin-top: 10px;
         height: 300px;
         margin-left: -15px;
+        width: 430px;
+    
     }
     
     .project-work {
@@ -550,6 +557,7 @@ html, body {
         margin-top: -20px;
         height: 350px;
         margin-left: -70px;
+        width: 460px;
     }
 
     .project-work {
@@ -577,6 +585,10 @@ html, body {
         height: 650px!important;
     }
     
+    .Discover-section,.row{
+        justify-content: center!important;
+        margin-left: 50px;
+    }
 
 }
 
