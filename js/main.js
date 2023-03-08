@@ -1,22 +1,14 @@
 const slideUp = () => {
-    const slideUpElements = document.querySelectorAll(".slide-up");
-    slideUpElements.forEach((el) => {
-      const slideUpObserver = new IntersectionObserver(
-        (entries, observer) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              el.classList.add("show");
-              observer.unobserve(entry.target); // Remove the observer after the animation has played once
-            }
-          });
-        },
-        {
-          threshold: 0.5,
-        }
-      );
-      slideUpObserver.observe(el);
+  const slideUpElements = document.querySelectorAll('.slide-up');
+  slideUpElements.forEach((el) => {
+    window.addEventListener('scroll', () => {
+      const slideUpTrigger = el.offsetTop - window.innerHeight;
+      if (window.scrollY > slideUpTrigger) {
+        el.classList.add('show');
+      }
     });
-  };
+  });
+};
   
   slideUp();
 
