@@ -1,24 +1,20 @@
 const slideUp = () => {
-  const sections = document.querySelectorAll('.animate-section');
-  
-  sections.forEach((section) => {
-    const slideUpElements = section.querySelectorAll('.slide-up');
+  const slideUpElements = document.querySelectorAll('.slide-up');
 
-    const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          slideUpElements.forEach((el) => {
-            const target = el;
-            const delay = Array.from(slideUpElements).indexOf(target) * 200;
-            target.style.transitionDelay = `${delay}ms`;
-            target.classList.add('show');
-          });
-          observer.unobserve(entry.target);
-        }
-      });
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const target = entry.target;
+        const delay = Array.from(slideUpElements).indexOf(target) * 80;
+        target.style.transitionDelay = `${delay}ms`;
+        target.classList.add('show');
+        observer.unobserve(target);
+      }
     });
+  });
 
-    observer.observe(section);
+  slideUpElements.forEach((element) => {
+    observer.observe(element);
   });
 };
 
