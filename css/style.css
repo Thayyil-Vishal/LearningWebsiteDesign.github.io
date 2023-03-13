@@ -92,10 +92,9 @@ html, body {
 }
 
 .homeimg{
-    margin-top: 80px;
-    height: 500px;
-    margin-left: -130px;
-    width: 580px;
+    height: 700px;
+
+    width: 400px;
 }
 .hometext{
     margin-top:250px;
@@ -306,6 +305,9 @@ html, body {
 }
 
 
+
+
+
 /* ***********************Amimation code start ******************** */
 
 
@@ -387,9 +389,8 @@ html, body {
     
     .homeimg{
         margin-top: 180px;
-        height: 400px;
-        margin-left: -100px;
-        width: 440px;
+        height: 300px;
+        width: 300px;
     }
 
     .teamsection{
@@ -421,9 +422,9 @@ html, body {
     }
 
     .homeimg{
-        margin-top: -10px;
-        height: 400px;
-        margin-left: -40px;
+        margin-top: 10px;
+        height: 350px;
+        margin-left: 20px;
         width: 500px;
     }
     
@@ -442,6 +443,7 @@ html, body {
 
     .footerimg{
         height: 1050px!important;
+       
     }
 
     .pricingsection{
@@ -488,8 +490,8 @@ html, body {
     .homeimg{
         margin-top: 10px;
         height: 300px;
-        margin-left: -15px;
-        width: 430px;
+        margin-left: 10px;
+        width: 450px;
     
     }
     
@@ -555,10 +557,10 @@ html, body {
     }
 
     .homeimg{
-        margin-top: -20px;
-        height: 350px;
-        margin-left: -70px;
-        width: 460px;
+        margin-top: 20px;
+        height: 300px;
+        margin-left: 10px;
+        width: 400px;
     }
 
     .project-work {

@@ -1,17 +1,28 @@
 const slideUp = () => {
-  const slideUpElements = document.querySelectorAll('.slide-up');
-  slideUpElements.forEach((el) => {
-    window.addEventListener('scroll', () => {
-      const slideUpTrigger = el.offsetTop - window.innerHeight;
-      if (window.scrollY > slideUpTrigger) {
-        el.classList.add('show');
-      }
+  const sections = document.querySelectorAll('.animate-section');
+  
+  sections.forEach((section) => {
+    const slideUpElements = section.querySelectorAll('.slide-up');
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          slideUpElements.forEach((el) => {
+            const target = el;
+            const delay = Array.from(slideUpElements).indexOf(target) * 200;
+            target.style.transitionDelay = `${delay}ms`;
+            target.classList.add('show');
+          });
+          observer.unobserve(entry.target);
+        }
+      });
     });
+
+    observer.observe(section);
   });
 };
-  
-  slideUp();
 
+slideUp();
 
   
 
@@ -23,10 +34,6 @@ const slideUp = () => {
   //         all[i].style.borderTop = '1px solid red';
   //     }
   // }
-
-
-
-
 
 
 
