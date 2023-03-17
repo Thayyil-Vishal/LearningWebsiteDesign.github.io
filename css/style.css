@@ -111,7 +111,20 @@ html, body {
     border: none;    
 }
 
+.card{
+border: none!important;
+    margin: 15px;
+    padding: 15px;
+}
+
 .cards{
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.cards1{
     box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     margin: 15px;
@@ -220,15 +233,15 @@ html, body {
     background-size: 100% 100%;
     background-attachment: fixed;
     width: 100%;
-    height: 120px;
-    margin-top: -55px;
+    height: 100px;
+    margin-top: -50px;
 }
 
 .profileimg{
     background-size: 100% 100%;
     background-attachment: fixed;
-    width: 35%;
-    height: 4   5px;
+    width: 25%;
+    height: 40px;
     border-radius: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -305,23 +318,86 @@ html, body {
 }
 
 
+.cards1:hover i {
+    color: #fff;
+    font-size: 30px;
+    background-color: #FFC600;
+    padding: 15px;
+    border-radius: 50px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .fa-picture-o {
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.9s, top 0.3s;
+  }
+  
+  .image-container:hover .fa-picture-o {
+    opacity: 1;
+    top: 50%;
+  }
+  
+  .cards1 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cards1 .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cards1 .image-container::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 128, 0.7);
+    transition: top 0.1s, opacity 0.3s;
+  }
+  
+  .cards1:hover .image-container::before {
+    top: 0;
+    opacity: 1;
+  }
+  
+  .cards1 .galleryimg {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
 
 
 
 /* ***********************Amimation code start ******************** */
 
 
-/* Define the slide-in animation for the left column */
+
 .slide-in-left {
-    animation: slide-in-left 1s ease-out;
+    animation: slide-in-left 0.5s ease-out;
   }
   
-  /* Define the slide-in animation for the right column */
   .slide-in-right {
-    animation: slide-in-right 1s ease-out;
+    animation: slide-in-right 0.5s ease-out;
   }
   
-  /* Define the keyframes for the slide-in-left animation */
   @keyframes slide-in-left {
     0% {
       transform: translateX(-100%);
@@ -331,7 +407,6 @@ html, body {
     }
   }
   
-  /* Define the keyframes for the slide-in-right animation */
   @keyframes slide-in-right {
     0% {
       transform: translateX(100%);
@@ -341,9 +416,7 @@ html, body {
     }
   }
     
-  
 
-  /* Define the slide-up animation for all columns */
 .slide-up {
     opacity: 0;
     transform: translateY(50%);
@@ -355,9 +428,6 @@ html, body {
     transform: translateY(0%);
   }
   
-
-  
-
 
 /* ***********************Amimation code end******************** */
 
@@ -397,9 +467,8 @@ html, body {
         height: 450px!important;
     }
 
-    .choose{
-        background-color: #4382FF;
-    }
+
+
 
 }
 
@@ -408,6 +477,9 @@ html, body {
         display: none!important;
     }
 
+    .profileimg{
+        width: 50px;
+    }
      .navbar-collapse{
         background-color: #fff;  
      }
@@ -434,7 +506,7 @@ html, body {
         margin-top: 60px ;
         background-size: 100% 100%;
         background-attachment: fixed;
-        height: 900px!important;
+        height: 450px!important;
     }
 
     .pricing-card-main{
@@ -458,7 +530,15 @@ html, body {
     .teamsection{
         height: 800px!important;
     }
+    .CourseIMG{
+        height: 400px;
+    }
 
+    .counterIcon{
+        width: 70px;
+        height: 90px;
+        margin-left: -10px;
+    }
 
 }
 
@@ -522,6 +602,11 @@ html, body {
         height: 700px!important;
     }
 
+    .counterIcon{
+        width: 70px;
+        height: 90px;
+        margin-left: -10px;
+    }
 
 }
 
@@ -586,14 +671,20 @@ html, body {
     }
 
     .teamsection{
-        height: 680px!important;
+        height: 780px!important;
     }
     
-    .Discover-section,.row{
+    .Discover-section .row{
         justify-content: center!important;
-        margin-left: 50px;
+        padding-left: 10px;
     }
 
+    .counterIcon{
+        width: 70px;
+        height: 90px;
+        margin-left: -10px;
+    }
+ 
 }
 
 
